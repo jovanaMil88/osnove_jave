@@ -17,7 +17,7 @@ public class zadatakAlarm {
             System.out.println(sat + ":" + i);
             }
         for (int i = UnetiMinut + MinutiModuo; i <= UkupniMinuti ; i = i + 5) {
-            if (i == 60) {
+            if (i > 59) {
                 i = 0;
                 sat = sat + 1;
             }
