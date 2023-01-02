@@ -22,7 +22,7 @@ public class zadatak7alt {
                 altSuma = suma - broj;
             }
             }
-            System.out.println(" Suma je " + suma);
+            System.out.println(" Suma je " + altSuma);
 
         }
 

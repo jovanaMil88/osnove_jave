@@ -27,6 +27,11 @@ public class zadatak4 {
         fordEcosport.trenutnaBrzina = 130;
         fordEcosport.godinaProizvodnje = 2021;
         fordEcosport.kubikaza = 1800;
+        fordEcosport.brojRegistracije ="KV 166 JJ";
+        fordEcosport.ukljucenaKlima = true;
+        fordEcosport.maksimalnaBrzina = 200;
+        fordEcosport.kapacitetRezervoara = 35;
+        fordEcosport.trenutnoGoriva = 8;
 
         fordEcosport.podaciOAutu();
 
@@ -67,6 +72,18 @@ public class zadatak4 {
 
 double cena = fordEcosport.cenaRegistracije();
         System.out.println("Cena registracije je: " + cena);
+
+
+        fordEcosport.dodajGas();
+
+        fordEcosport.koci();
+        fordEcosport.stampajTablu();
+
+
+
+
+
+
 
     }
 }
