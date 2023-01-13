@@ -1,0 +1,35 @@
+package p10_01_2023;
+
+public class Film {
+    private String naziv;
+    private int godina;
+
+
+    public Film(String naziv, int godina) {
+        this.naziv = naziv;
+        this.godina = godina;
+    }
+
+    public String getNaziv() {
+        return naziv;
+    }
+
+    public int getGodina() {
+        return godina;
+    }
+
+    public void setNaziv(String naziv) {
+        this.naziv = naziv;
+    }
+
+    public void setGodina(int godina) {
+        this.godina = godina;
+    }
+    public void print(){
+        System.out.println(this.naziv + ", " + this.godina);
+    }
+
+    {
+
+    }
+}
