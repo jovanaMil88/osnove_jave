@@ -24,6 +24,9 @@ public class TimeControl extends Contol {
         if (plejer.duzinaVidea < plejer.trenutnoVreme){
             plejer.trenutnoVreme = plejer.duzinaVidea;
         }
+        if (plejer.trenutnoVreme < 0){
+            plejer.trenutnoVreme = 0;
+        }
         }
 
 

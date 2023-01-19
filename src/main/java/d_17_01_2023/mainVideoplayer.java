@@ -8,9 +8,9 @@ public class mainVideoplayer {
        plejer.setDuzinaVidea(12);
        plejer.setKvalitetVidea(53);
        plejer.stampaj();
-       TimeControl vreme = new TimeControl(true);
+       TimeControl vreme = new TimeControl(false);
        vreme.izvrsiAkciju(plejer);
-       AudioControl audio = new AudioControl(true);
+       AudioControl audio = new AudioControl(false);
        audio.izvrsiAkciju(plejer);
        QualityOptimizerContol kvalitet = new QualityOptimizerContol(20);
        kvalitet.izvrsiAkciju(plejer);
